@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Optional } from '@angular/core';
+import {MdSidenav, MdDialog, MdDialogConfig } from "@angular/material";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'AWESOME BANK';
 }
